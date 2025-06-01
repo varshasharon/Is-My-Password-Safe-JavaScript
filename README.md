@@ -14,6 +14,9 @@ Woopsie, I just got an idea of adding bootstrap to my dev, just so I could refre
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -21,34 +24,51 @@ Woopsie, I just got an idea of adding bootstrap to my dev, just so I could refre
     <title>Password Checker</title>
 </head>
 <body>
-
-        
-        <div class="card w-50 m-5 ">
-<div class="card-body p-5">
-    <h3 class="card-title text-center mb-4 fw-bold display-4">🔐 Is My Password Safe?</h3>
-    <p class="card-text fs-6 text-secondary">
-        It’s 3:00 AM. You're peacefully asleep. 😴  
-        Somewhere, in a dimly-lit basement, lit only by RGB lights and bad intentions... a hacker known as <span class="fw-semibold text-primary">"The_KeyboardWarrior420"</span> stretches his fingers. 💻🖐️  
-        <br><br>
-        He takes a wild guess: <span class="fw-bold text-danger">‘password123’</span>.  
-        <span class="text-success">Boom. He's in. 💥</span>  
-        Your emails, your memes, even your old cringy blog from 2011 — all exposed.
-        <br><br>
-        But wait... it gets worse.
-        <br><br>
-        The next day, your friends receive messages saying:  
-        <em class="text-warning">"I've become a crypto prince. Send ETH. Urgent."</em> 👑🚩  
-        <br><br>
-        <span class="fw-bold text-danger">Don’t be a victim of the Midnight Meme Massacre™.</span>  
-        <span class="fw-semibold text-success">Check your password. Make it strong. Confuse the hackers. Add a llama or something. 🦙</span>  
-    </p>
-    <div class="d-flex justify-content-center mt-4">
-        <a href="form.html" class="btn btn-primary shadow px-5 py-2 fw-bold">
-            Check My Password Now
-        </a>
+    <nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><b>Is my password safe?</b></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-4 mb-lg-0">
+        <li class="nav-item m-3">
+          <a class="nav-link active " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item m-3">
+          <a class="nav-link" href="form.html">Password Checker</a>
+        </li>
+      </ul>
     </div>
-</div>
   </div>
+</nav>
+
+<div class="contain">
+    <div class="main">
+        <div class="content">
+        <h1>We trust passwords with everything.</h1>
+        <p>Every account you create.</p>
+        <p>Every message you send.</p>
+        <p>Every piece of your digital life — locked behind a password.</p>
+
+       <p> But not all locks are made equal.
+        Some can be picked in milliseconds.
+
+        This isn’t about paranoia. It’s about awareness.
+
+        You deserve to know if the key you’re using is worth trusting.
+       </p>
+        <p>Let’s check it. Quietly, quickly, and clearly.</p>
+
+    </div>
+            <button><a href="form.html">Let's go check my password!</a></button>
+
+    </div>
+    <img src="./assets/bg2.jpg" alt="">
+
+</div>
+<div class="section-two">
+
 </div>
 </body>
 </html>
