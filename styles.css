@@ -18,7 +18,7 @@ body {
 }
 nav{
   background-color: rgb(255, 255, 255);
-  border: 1px solid;
+  border-bottom: 1px solid;
   padding: 10px 20px !important;
 }
 .contain{
@@ -68,7 +68,6 @@ img{
 .section-two{
   height: 100vh;
   background-color: rgb(241, 241, 241);
-  border: 2px solid;
 }
 form{
   padding: 50px;
